@@ -1,0 +1,41 @@
+html, body { 
+  height:100%; 
+  width:100%; 
+  margin:0; 
+  padding:0; 
+  overflow:hidden; 
+}
+
+.header{
+  position: absolute;
+  color:  yellow;
+  top: 20vh;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+
+}
+.header1{
+  position: absolute;
+  color: white;
+  top: 35vh;
+  left: 20%;
+  right: 20%;
+}
+/*@media all and (max-width: 800px){
+  .header{
+    top: 20vh; 
+  }
+  .header1{
+    top: 35vh;
+  }
+}*/
+
+@font-face{
+  font-family: Equinox;
+  src:url('../../fonts/Equinox Bold.otf');
+}
+h1{
+  font-family: Equinox;
+}
+
